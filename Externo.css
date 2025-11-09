@@ -1,0 +1,73 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: powderblue;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: black;
+}
+
+header p {
+  color: DodgerBlue;
+  font-style: italic;
+  margin: 5px 0 0 0;
+}
+
+nav {
+  background-color: darkblue;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+section h2 {
+  color: black;
+  margin-top: 20px;
+}
+
+a {
+  color: SlateBlue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+footer {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 0;
+  margin-top: 30px;
+}
